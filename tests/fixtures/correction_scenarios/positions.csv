@@ -1,0 +1,11 @@
+position_id,security_name,quantity
+S01,Open month correction,100
+S02,"Closed month, booked next month",100
+S03,"Two corrections, different months",100
+S04,Correction later reverted,100
+S05,Same correction sent twice,100
+S06,"Close day, before the close",100
+S07,"Close day, after the close",100
+S08,"Old month, booked in open month",100
+S09,Current open month day,100
+S10,No corrections (control),100

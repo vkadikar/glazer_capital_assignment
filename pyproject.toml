@@ -1,0 +1,13 @@
+[project]
+name = "pnl-ledger"
+version = "0.1.0"
+description = "Bitemporal, append-only P&L ledger (Glazer Capital case study)"
+requires-python = ">=3.10"
+dependencies = []  # standard library only (sqlite3, csv)
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
