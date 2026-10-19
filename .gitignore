@@ -3,10 +3,5 @@ data
 !tests/fixtures/**/*.csv
 __pycache__/
 .pytest_cache/
-answers.md
-architecture_diagram.md
-assignment.md
-glazer_case_study_presentation.pptx
-scd_vs_bitemporal.md
-understood_assignment.md
 .ipynb_checkpoints
+.DS_Store
